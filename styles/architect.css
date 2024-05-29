@@ -85,17 +85,6 @@ nav li a{
 }
 
 
-/* Media Queries */
-
-@media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
-
-    nav{
-        flex-direction: column;
-    }
-}
 
 /* Teams Section */
 
@@ -119,12 +108,52 @@ nav li a{
     margin-bottom: 1rem;
 }
 
-.highlight{
-    color: #FF900E;
-}
-
 .teams-text p{
     color: #727272;
     margin-bottom: 1rem;
     width: 35rem;
+}
+
+.highlight-1{
+    color: #727272;
+}
+
+.highlight-2{
+    color: #FF900E;
+    
+}
+
+
+
+/* Media Queries */
+
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+
+    nav, .teams-container
+    {
+        flex-direction: column;
+    }
+}
+
+/* Teams Media Query */
+
+@media screen and (max-width: 576px) {
+    .teams-container{
+        margin: 0 auto;
+    }
+
+    .teams-img{
+      
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-text h3{
+        font-size: 2rem;
+        width: 31.5rem;
+        
+        
+    }
 }
