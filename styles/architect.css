@@ -137,6 +137,63 @@ main{
     
 }
 
+/* TEams section ends here */
+
+
+
+/* Featured section */
+
+.rectangle{
+    width: .33rem;
+    height:7rem;
+    flex-shrink: 0;
+    background-color: #FF900E;
+}
+
+.featured-text-title-decoration{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.featured-text-title-decoration h1{
+    width: 31.2rem;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.featured-text-title p{
+    width: 39rem;
+    color: #727272;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.featured-section-features{
+    padding: 2rem 4rem 3rem 2rem;
+    border-radius: .5rem;
+    background: #FFF;
+    box-shadow: 0rem .25rem 2rem 0rem rgba(0, 0, 0, 0.06);
+    width: 39rem;
+    margin-bottom: 1.5rem;
+}
+
+.featured-section-features h3{
+    color: #131313;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.featured-section-features p{
+    width: 514px;
+    color: #727272;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 
 
 /* Media Queries */
